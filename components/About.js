@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-import profile from "../public/assets/Picture.PNG";
+import Picture from "../public/assets/Picture.PNG";
 
 const About = () => {
   return (
@@ -28,7 +28,7 @@ const About = () => {
         </div>
         <div className="w-full h-auto m-auto  rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image
-            src={profile}
+            src={Picture}
             className="rounded-xl"
             alt="/"
             width={400}
