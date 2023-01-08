@@ -1,6 +1,14 @@
 import Image from "next/image";
 import React from "react";
 
+import htmlPic from "../public/assets/skills/html.png";
+import cssPic from "../public/assets/skills/css.png";
+import jsPick from "../public/assets/skills/javascript.png";
+import reactPick from "../public/assets/skills/react.png";
+import tailwindPick from "../public/assets/skills/tailwind.png";
+import nextPick from "../public/assets/skills/nextjs.png";
+import sassPick from "../public/assets/skills/sass.png";
+
 const Skills = () => {
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
@@ -13,12 +21,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/html.png"
-                  alt="/"
-                  width={64}
-                  height={64}
-                />
+                <Image src={htmlPic} alt="/" width={64} height={64} />
               </div>
 
               <div className="flex flex-col items-center justify-center">
@@ -30,12 +33,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/css.png"
-                  alt="/"
-                  width={64}
-                  height={64}
-                />
+                <Image src={cssPic} alt="/" width={64} height={64} />
               </div>
 
               <div className="flex flex-col items-center justify-center">
@@ -47,12 +45,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/javascript.png"
-                  alt="/"
-                  width={64}
-                  height={64}
-                />
+                <Image src={jsPick} alt="/" width={64} height={64} />
               </div>
 
               <div className="flex flex-col items-center justify-center">
@@ -64,12 +57,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/react.png"
-                  alt="/"
-                  width={64}
-                  height={64}
-                />
+                <Image src={reactPick} alt="/" width={64} height={64} />
               </div>
 
               <div className="flex flex-col items-center justify-center">
@@ -81,12 +69,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/tailwind.png"
-                  alt="/"
-                  width={64}
-                  height={64}
-                />
+                <Image src={tailwindPick} alt="/" width={64} height={64} />
               </div>
 
               <div className="flex flex-col items-center justify-center">
@@ -98,12 +81,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/nextjs.png"
-                  alt="/"
-                  width={64}
-                  height={64}
-                />
+                <Image src={nextPick} alt="/" width={64} height={64} />
               </div>
 
               <div className="flex flex-col items-center justify-center">
@@ -132,12 +110,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/sass.png"
-                  alt="/"
-                  width={64}
-                  height={64}
-                />
+                <Image src={sassPick} alt="/" width={64} height={64} />
               </div>
 
               <div className="flex flex-col items-center justify-center">
