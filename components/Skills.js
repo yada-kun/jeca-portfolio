@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-import html from "../public/assets/skills/html.PNG";
+import html from "../public/assets/skills/html.png";
 import css from "../public/assets/skills/css.png";
 import javascript from "../public/assets/skills/javascript.png";
 import react from "../public/assets/skills/react.png";
