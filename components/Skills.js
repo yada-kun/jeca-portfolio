@@ -7,6 +7,7 @@ import javascript from "../public/assets/skills/javascript.png";
 import react from "../public/assets/skills/react.png";
 import tailwind from "../public/assets/skills/tailwind.png";
 import nextjs from "../public/assets/skills/nextjs.png";
+import mui from "../public/assets/skills/mui.png";
 import sass from "../public/assets/skills/sass.png";
 
 const Skills = () => {
@@ -93,12 +94,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/mui.png"
-                  alt="/"
-                  width={64}
-                  height={64}
-                />
+                <Image src={mui} alt="/" width={64} height={64} />
               </div>
 
               <div className="flex flex-col items-center justify-center">
