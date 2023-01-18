@@ -5,9 +5,9 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 
 import propertyImg from "../public/assets/projects/property.jpg";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
-import netflixImg from "../public/assets/projects/netflix.jpg";
-import twitchImg from "../public/assets/projects/twitch.jpg";
+import bpImg from "../public/assets/projects/bpecommerce.png";
+import memoryImg from "../public/assets/projects/memory.png";
+import layagImg from "../public/assets/projects/layag.png";
 import fluffypan from "../public/assets/projects/fluffypan.png";
 
 const Projects = () => {
@@ -21,24 +21,24 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
+            title="Fluffy Bread Pan"
             backgroundImg={fluffypan}
-            projectUrl="/property"
+            projectUrl="/fluffy"
           />
           <ProjectItem
-            title="Crypto App"
-            backgroundImg={cryptoImg}
-            projectUrl="/crypto"
+            title="BlackPink Ecommerce"
+            backgroundImg={bpImg}
+            projectUrl="/blackpink"
           />
           <ProjectItem
-            title="Netflix"
-            backgroundImg={netflixImg}
-            projectUrl="/netflix"
+            title="Layag Travels"
+            backgroundImg={layagImg}
+            projectUrl="/layag"
           />
           <ProjectItem
-            title="Twitch"
-            backgroundImg={twitchImg}
-            projectUrl="/twitch"
+            title="Memory Game"
+            backgroundImg={memoryImg}
+            projectUrl="/memory"
           />
         </div>
       </div>
