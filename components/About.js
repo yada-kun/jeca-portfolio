@@ -22,7 +22,12 @@ const About = () => {
             you with your bussiness.
           </p>
 
-          <button className="w-32 h-12 my-2">Check My CV</button>
+          <a
+            href="https://drive.google.com/file/d/1Cf7NS_Ty7Bqb76yHgy9ymg7s8VLYgBO9/view?usp=share_link"
+            download
+          >
+            <button className="w-32 h-12 my-2">Check My CV</button>
+          </a>
         </div>
         <div className="w-full h-auto m-auto  rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image
